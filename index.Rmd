@@ -38,7 +38,7 @@ mapview(shp, zcol = "P_OPSTINE", layer.name = "O", alpha.regions = 1, label= "Na
 
 <!-- DRUGI DIO -->
 # [Karte pošumljenosti]{style="font-size:20px"} [![](IKONICE/tree-icon.png){width="20"}](https://jovanat3.github.io/Pusumljeno_podrucje/)
-<p style="text-align:justify">U sklopu ovoga dela, spadaju karte pošumljenih područja po opštinama Srbije za sve 3 godine, kao i karte kojima se prikazuje promena pošumljenih područja za dati period. Kartama možete pristupiti [ovde]((https://jovanat3.github.io/Pusumljeno_podrucje/)).</p>\n
+<p style="text-align:justify">U sklopu ovoga dela, spadaju karte pošumljenih područja po opštinama Srbije za sve 3 godine, kao i karte kojima se prikazuje promena pošumljenih područja za dati period. Kartama možete pristupiti [ovde](https://jovanat3.github.io/Pusumljeno_podrucje/).</p>\n
 
 ## [Vizuelno poređenje karata pošumljenosti]{style="font-size:18px"} [![](IKONICE/4778362.png){width="20"}](https://jovanat3.github.io/Posumljenost_poredjene/)
 <p style="text-align:justify">Pored navedenih karata pošumljenosti, omogućeno je i vizuelno poređenje karata pošumljenosti. Ove karte su stvorene da što preglednije i jasnije predstave stanje pošumljenosti, odnosno promenu pošumljenosti u zavisnosti od 2 godine. Vizuelnom poređenju možete pristupiti [ovde](https://jovanat3.github.io/Posumljenost_poredjene/).</p>\n
