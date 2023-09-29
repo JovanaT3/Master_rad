@@ -1,0 +1,50 @@
+---
+title: <span style="font-style:italic;font-size:28px;text-align:center;text-decoration:underline">Karta pošumljenosti opština u Srbiji na osnovu podataka Kopernikus monitoring servisa zajedno sa promenama urbanih površina za godine 2012, 2015, 2018</span>
+output:
+  html_document: 
+    fig_width: 8.6
+    theme: united
+    toc: yes
+    toc_float: yes
+    toc_depth: 3
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, warning=FALSE, message=FALSE)
+```
+
+<!-- ucitanje biblioteka -->
+```{r}
+library(rgdal) 
+library(mapview)
+library(leafpop)
+```
+
+<!-- ucitavnaje shp-a -->
+```{r include = FALSE}
+shp = readOGR(dsn="C:\\MASTER RAD\\FINALNO\\R\\PODACI",layer="STATISTIKA")
+```
+
+<!-- PRVI DIO -->
+<p style="text-align:justify">Na osnovu analize statičkih karata *TCD* (*Tree Cover Density*) i *IMD* (*Imperviousness Density*), preuzetih sa [Kopernikus monitoring servisa](https://land.copernicus.eu/en/map-viewer), kreirane su interaktivne karte pošumljenosti i karte urbanih površina opština u Srbiji za godine 2012, 2015 i 2018. Pored karata pošumljenosti i karata urbanih površina, omogućen je i prikaz karte sa svim dobijenim podacima.</p>\n
+
+# [Interaktivna karta sa svim podacima]{style="font-size:20px"}
+```{r}
+mapview(shp, zcol = "P_OPSTINE", layer.name = "O", alpha.regions = 1, label= "NameASCII", legend = FALSE, popup = popupTable(shp, row.numbers = FALSE, feature.id = FALSE, 
+                           zcol = c(2:15)
+        )
+)
+```
+
+<!-- DRUGI DIO -->
+# [Karte pošumljenosti]{style="font-size:20px"} [![](IKONICE/tree-icon.png){width="20"}](https://jovanat3.github.io/Pusumljeno_podrucje/)
+<p style="text-align:justify">U sklopu ovoga dela, spadaju karte pošumljenih područja po opštinama Srbije za sve 3 godine, kao i karte kojima se prikazuje promena pošumljenih područja za dati period. Kartama možete pristupiti [ovde]((https://jovanat3.github.io/Pusumljeno_podrucje/)).</p>\n
+
+## [Vizuelno poređenje karata pošumljenosti]{style="font-size:18px"} [![](IKONICE/4778362.png){width="20"}](https://jovanat3.github.io/Posumljenost_poredjene/)
+<p style="text-align:justify">Pored navedenih karata pošumljenosti, omogućeno je i vizuelno poređenje karata pošumljenosti. Ove karte su stvorene da što preglednije i jasnije predstave stanje pošumljenosti, odnosno promenu pošumljenosti u zavisnosti od 2 godine. Vizuelnom poređenju možete pristupiti [ovde](https://jovanat3.github.io/Posumljenost_poredjene/).</p>\n
+
+# [Karte urbanog područja]{style="font-size:20px"} [![](IKONICE/images.png){width="20" height="19"}](https://jovanat3.github.io/Urbana_podrucja/)
+<p style="text-align:justify">U sklopu ovoga dela, spadaju karte urbanih područja po opštinama Srbije za sve 3 godine, kao i karte kojima se prikazuje promena urbanih područja za dati period. Kartama možete pristupiti [ovde](https://jovanat3.github.io/Urbana_podrucja/).</p>\n
+
+\
+<p style="text-align:center"> Master rad - Jovana Tomić </p>
