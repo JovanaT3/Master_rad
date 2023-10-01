@@ -26,7 +26,7 @@ shp = readOGR(dsn="C:\\MASTER RAD\\FINALNO\\R\\PODACI",layer="STATISTIKA")
 ```
 
 <!-- PRVI DIO -->
-<p style="text-align:justify;font-family:Arial">Na osnovu analize statičkih karata *TCD* (*Tree Cover Density*) i *IMD* (*Imperviousness Density*), preuzetih sa [Kopernikus monitoring servisa](https://land.copernicus.eu/en/map-viewer), kreirane su interaktivne karte pošumljenosti i karte urbanih površina opština u Srbiji za godine 2012, 2015 i 2018. Pored karata pošumljenosti i karata urbanih površina, omogućen je i prikaz karte sa svim dobijenim podacima.</p>\n
+<p style="text-align:justify;font-family:Arial">Na osnovu analize [*TCD* (*Tree Cover Density*)](https://land.copernicus.eu/en/products/high-resolution-layer-tree-cover-density) i [*IMD* (*Imperviousness Density*)](https://land.copernicus.eu/en/products/high-resolution-layer-imperviousness) mapa, preuzetih sa [Kopernikus Land monitoring servisa](https://land.copernicus.eu/en/map-viewer), kreirane su interaktivne karte pošumljenosti i karte urbanih površina opština u Srbiji za godine 2012, 2015 i 2018. Pored karata pošumljenosti i karata urbanih površina, omogućen je i prikaz karte sa svim dobijenim podacima.</p>\n
 
 # [Interaktivna karta sa svim podacima]{style="font-size:20px;font-family:Arial"}
 ```{r}
