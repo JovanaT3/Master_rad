@@ -43,7 +43,7 @@ mapview(shp, zcol = "P_OPSTINE", layer.name = "O", alpha.regions = 1, label= "Na
 ## [Vizuelno poređenje karata pošumljenosti]{style="font-size:18px;font-family:Arial"} [![](IKONICE/4778362.png){width="20"}](https://jovanat3.github.io/Posumljenost_poredjene/)
 <p style="text-align:justify">Pored navedenih karata pošumljenosti, omogućeno je i vizuelno poređenje karata pošumljenosti. Ove karte su stvorene da što preglednije i jasnije predstave stanje pošumljenosti, odnosno promenu pošumljenosti u zavisnosti od 2 godine. Vizuelnom poređenju možete pristupiti [ovde](https://jovanat3.github.io/Posumljenost_poredjene/).</p>\n
 
-# [Karte urbanog područja]{style="font-size:20px;font-family:Arial"} [![](IKONICE/images.png){width="20" height="19"}](https://jovanat3.github.io/Urbana_podrucja/)
+# [Karte urbanih površina]{style="font-size:20px;font-family:Arial"} [![](IKONICE/images.png){width="20" height="19"}](https://jovanat3.github.io/Urbana_podrucja/)
 <p style="text-align:justify">U sklopu ovoga dela, spadaju karte urbanih područja po opštinama Srbije za sve 3 godine, kao i karte kojima se prikazuje promena urbanih područja za dati period. Kartama možete pristupiti [ovde](https://jovanat3.github.io/Urbana_podrucja/).</p>\n
 
 \
